@@ -17,6 +17,3 @@ st_lottie(load_file,
 	quality="high")
 st.write("Made by Ivan Tonon for $Nuclear$ $Safety$ course's final assessment")
 st.write("Professors: Cesar Queral, Eduardo Gallego and Gonzalo Jimenez")
-
-st.write('Made by Ivan Tonon for $Nuclear$ $Safety$ course final assessment.')
-st.write('Professors: Cesar Queral, Eduardo Gallego and Gonzalo Jimenez')
