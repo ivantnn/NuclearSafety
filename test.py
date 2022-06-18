@@ -7,11 +7,21 @@ def load_lottie(filepath:str):
 	with open(filepath,"r") as f:
 		return json.load(f)
 
-load_file = load_lottie('out.mp4.lottie.json')
+
+
+load_file1 = load_lottie('output.mp4.lottie.json')
+load_file2 = load_lottie('out.mp4.lottie.json')
 #n = open('out2.mp4','rb')
 #b = n.read()
 #st.video(b)
-st_lottie(load_file,
+st.write('Here is a CFD video of a fire due to Propane')
+st_lottie(load_file1,
+	speed=1,
+	reverse=False,
+	quality="high")
+
+st.write('Here is a CFD video of the firsts miliseconds of a hydrogen combustion')
+st_lottie(load_file2,
 	speed=1,
 	reverse=False,
 	quality="high")
